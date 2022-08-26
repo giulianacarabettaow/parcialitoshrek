@@ -1,0 +1,62 @@
+div {
+   height: 600px;
+   width: 95%;
+   padding: 15px;
+   background-color: rgb(169, 115, 219);
+   font-weight: bold;
+}
+img{
+    height: 90px;
+    width:10%;
+}
+
+
+.contenedorpadre{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction:row-reverse; 
+    justify-content: space-around;
+    justify-content: space-between;
+    align-items: center;
+
+}
+div.shrekbox {
+    height: 100px;
+    width: 30%;
+    background-color: aquamarine;
+    border-radius: 3%;
+    border-style: none;
+    align-self: center;
+
+}
+div.burrobox {
+    height: 100px;
+    width: 100px;
+    background-color: aquamarine;
+    border-radius: 3%;
+    border-style: none;
+    align-self:center ;
+}
+div.fionabox {
+    height: 450px;
+    width: 100px;
+    background-color: aquamarine;
+    border-radius: 3%;
+    border-style: none;
+    align-self: flex-end;
+}
+div.gatobox {
+    height: 100px;
+    width: 100px;
+    background-color: aquamarine;
+    border-radius: 3%;
+    border-style: none;
+}
+div.pinochobox {
+    height: 100px;
+    width: 100px;
+    background-color: aquamarine;
+    border-radius: 3%;
+    border-style: none;
+    align-self: flex-start;
+}
